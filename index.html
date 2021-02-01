@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+        <meta charset="utf-8" />
+        <title>Random.io</title>
+        <script src="index.js"></script>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <h1>Random<span id="dot">.</span>io</h1>
+
+        <div class="container">
+
+        <div class="demo-flex-spacer"></div>
+
+        <div class="webflow-style-input">
+            <input class="minimal" type="text" name="text" placeholder="minimal"></input>
+            <button type="submit">
+                <i class="icon ion-android-arrow-forward"></i>
+            </button>
+        </div>
+
+        <div class="webflow-style-input">
+            <input class="maximal" type="text" name="text" placeholder="maximal"></input>
+            <button type="submit">
+                <i class="icon ion-android-arrow-forward"></i>
+            </button>
+        </div>
+
+        <button class="btn" onclick="send()">Generate</button>
+        <button class="btn2"></button>
+
+        <div id="yourNumber"></div>
+
+        <div class="demo-flex-spacer"></div>
+
+    </div>
+    </body>
+</html>
